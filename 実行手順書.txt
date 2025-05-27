@@ -1,0 +1,9 @@
+①使用パッケージのインストール
+pip install -r requirements.txt
+
+② .envをローカルで用意
+・.env.exampleを参考に、自身のopen_ai、langsmithのapi_keyの値を設定する
+
+③Streamlit または python実行
+・カレントディレクトリがRAG_Applicaion（/appの１つ上の場合）
+stream run app/ui_app.py または python app/main.py
