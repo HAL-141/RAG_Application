@@ -1,0 +1,10 @@
+# 仮想環境
+venv/
+__pycache__/
+*.pyc
+
+# Jupyterのチェックポイント
+.ipynb_checkpoints/
+
+# 環境変数ファイル
+.env
